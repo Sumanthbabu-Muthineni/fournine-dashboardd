@@ -17,7 +17,8 @@ const data = [
 
 const Piechart = () => {
   return (
-    <ResponsiveContainer width="100%" height={300}>
+    
+      <ResponsiveContainer width="100%" height={300} >
       <PieChart>
         <Pie
           cx="85%"
@@ -28,8 +29,9 @@ const Piechart = () => {
           innerRadius="40%"
           outerRadius="80%"
           dataKey="count"
+          
         >
-          <Cell name="Telugu" fill="#fecba6" />
+          <Cell  name="Telugu" fill="#fecba6" />
           <Cell name="Hindi" fill="#b3d23f"  />
           <Cell name="English" fill="#a44c9e" />
         </Pie>
@@ -42,6 +44,9 @@ const Piechart = () => {
         
       </PieChart>
     </ResponsiveContainer>
+    
+    
+
   )
 }
 

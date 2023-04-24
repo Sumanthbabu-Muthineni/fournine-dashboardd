@@ -1,6 +1,7 @@
 import './App.css'
 import VideoPlayer from './components/VideoPlayer'
-import PieChart from './components/Piechart'
+import Piechart from './components/Piechart'
+import TablePanel from './components/TablePanel'
 
 const App=()=>(
 <div className='dashBoard-bg'>
@@ -10,7 +11,10 @@ const App=()=>(
   <hr/>
   <div className='video-piechart-container'>
     <VideoPlayer/>  
-    <PieChart/>
+      <Piechart/>
+  </div>
+  <div>
+     <TablePanel/>
   </div>
      
 </div>
