@@ -1,0 +1,13 @@
+.dashBoard-bg{
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+  padding: 15px;
+}
+.heading-container{
+  height: 5vh;
+  text-align: center;
+}
+.video-piechart-container{
+  display: flex;
+}
