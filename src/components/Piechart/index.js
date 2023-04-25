@@ -1,4 +1,5 @@
 import { PieChart, Pie, Legend, Cell, ResponsiveContainer } from "recharts"
+import "./index.css"
 
 const data = [
   {
@@ -18,7 +19,7 @@ const data = [
 const Piechart = () => {
   return (
     
-      <ResponsiveContainer width="100%" height={300} >
+      <ResponsiveContainer width="50%" height={360}padding-right={50}   > 
       <PieChart>
         <Pie
           cx="85%"
@@ -40,6 +41,7 @@ const Piechart = () => {
           layout="vertical"
           verticalAlign="middle"
           align="right"
+        
         />
         
       </PieChart>

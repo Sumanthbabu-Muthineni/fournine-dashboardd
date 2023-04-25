@@ -11,7 +11,7 @@ const panelConstants={
 
 class TablePanel extends Component {
 
-state ={panel:"one", pannelButton:"pannels"}
+state ={panel:"one", pannelButton:"pannel-button"}
 
 pannelOneFunc=()=>{
     this.setState({panel:"one"})
@@ -25,11 +25,11 @@ pannelThreeFunc=()=>{
     this.setState({panel:"three"})
 }
 
-pannelOneLayer=()=><div className="pannel-content"><h1>wait1</h1></div>
+pannelOneLayer=()=><div className="pannel-content"><h1>panel-1</h1></div>
 
-pannelTwoLayer=()=><div><h1>wait1</h1></div>
+pannelTwoLayer=()=><div className="pannel-content"><h1>panel-2</h1></div>
 
-pannelThreeLayer=()=><div><h1>wait1</h1></div>
+pannelThreeLayer=()=><div className="pannel-content"><h1>panel-3</h1></div>
 
 PanelSwitching=()=>{
  const {panel}=this.state
@@ -46,8 +46,6 @@ PanelSwitching=()=>{
 }
 
 
-
-
 render() {
    
     const {pannelButton}=this.state
@@ -59,6 +57,7 @@ render() {
           <button className={pannelButton} type="button" onClick={this.pannelTwoFunc}>Pannel-2</button>
           <button className={pannelButton} type="button" onClick={this.pannelThreeFunc}>Pannel-3</button>
            </div>
+           <hr/>
 
    {this.PanelSwitching()}
 

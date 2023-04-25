@@ -1,14 +1,9 @@
+import React from 'react'
 import ReactPlayer from 'react-player'
 
-import './index.css'
+// Render a YouTube video player
 
-const videoURL = "https://youtu.be/6RqA_knCkYg"
-const VideoPlayer = () => (
-  <div className="video-container">
-    <div className="responsive-container">
-      <ReactPlayer url={videoURL} width='100%' height='100%' border-radius="15px" border-style="solid"/>
-    </div>
-  </div>
-)
+const VideoPlayer=()=><div className='Video-container'><ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' /></div>
+
 
 export default VideoPlayer

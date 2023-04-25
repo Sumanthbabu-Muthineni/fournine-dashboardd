@@ -12,6 +12,7 @@
 
 .video-piechart-container{
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   text-align: center;
   align-items: center;
