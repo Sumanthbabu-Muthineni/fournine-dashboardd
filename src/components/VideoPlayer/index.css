@@ -1,6 +1,5 @@
-.responsive-container{
-    width: 550px;
+.video-container{
+    width: 600px;
     height: 250px;
-   
-   
+    margin-left: 15px;
 }
